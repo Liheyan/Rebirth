@@ -1,0 +1,14 @@
+1、下载所需要文件
+git clone 存储库地址网址
+2、修改文件之后 添加
+git add 。
+3、commit更新
+git commit -m '更新的内容'
+4、git push
+5、已经完成，连接服务器更新内容，以ssh的方法连接数据库
+ssh root@服务器地址
+5、选择yes
+6、cd进入目录(tab为补全键)
+cd /home/work/soway/node/
+7、进入node目录之后git pull 使服务器获取更新
+8、本地文件更新，直接git pull 就可以更新了
