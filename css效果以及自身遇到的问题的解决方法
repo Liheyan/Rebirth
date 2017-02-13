@@ -1,0 +1,12 @@
+1、背景图拉伸效果，在类中建立一个background-size：100%  background-repeat:no-repeat;
+2、background-iamge：url（地址/文件名字加后缀）
+3、设置边框圆角度数：border-radius: 12px;
+4、居中方法在最外层text-align: center;在要居中的方法里面写margin: 0 auto;
+5、添加输入文本框，需要在jade里面输入input.类名，placeholder是输入一个虚拟的文字
+6、两个div如何横向排列：方法一：div的dispaly默认属性是block，改换成inline
+				        方法二：使用float:right,在这里定义元素往哪个方向浮动，表示    移动到父元素的右侧
+7、默认设置的除了width和height之外还有一个float：标签左浮动的意思
+8、访问本地localhost网页需要把本地网络设置成自动ip，然后再ip后面加需要的端口号再加冒号再加网页名称
+9、meta(name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no")此行代码是自适应界面，放在head里面
+10、radio是css中的单选按钮
+11、input和img在一行时候img总是比input高一些，解决办法就是在两个css中都加入vertical-align:middle就行
