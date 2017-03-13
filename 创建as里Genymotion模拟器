@@ -1,0 +1,4 @@
+首先需要下载https://www.virtualbox.org/wiki/Downloads Virtual Box，下载windows hosts直接安装基本都是next
+在这个网页https://www.genymotion.com/account/create/中注册你的名字、邮箱、密码 右边选择Gamer/personal  和  Development
+在这个网页https://www.genymotion.com/download/下载without VirtualBox 然后安装就好了
+在最初的AS界面Configure——Plugins中搜索Genymotion下载安装重启，然后点击右边的红色电视，选择Genymotion路径，再点击开就好，然后添加android版本虚拟机就可以
