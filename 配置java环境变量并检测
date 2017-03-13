@@ -1,0 +1,6 @@
+重新安装java
+1、首先下载java安装包，配置环境变量如下:
+(1)在“系统变量”新建一个变量名为JAVA_HOME的变量，变量值为你本地java的安装目录，我这里为：E:\java，设置这个的目的是作为下面两个环境变量的一个引用
+(2)在“系统变量”选项区域中查看PATH变量，如果不存在，则新建变量PATH，否则选中该变量，单击“编辑”按钮，在“变量值”文本框的起始位置添加%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;
+(3)在“系统变量”选项区域中查看CLASSPATH变量，不存在，则新建变量CLASSPATH，否则选中该变量，单击“编辑”按钮，在“变量值”文本框的起始位置添加.;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar;
+2、验证环境是否安装成功,cmd 键如java、javac、java -version 这几个命令
