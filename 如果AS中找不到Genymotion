@@ -1,0 +1,2 @@
+如果Android Studio中找不到Genymotion，那就去官网https://www.genymotion.com/plugins/里面Resources下面的子菜单Plugins页面下的 genymotion-idea-plugin.jar 
+然后在Android Studio里plugins里面的install plugin from然后选择下载的文件即可
